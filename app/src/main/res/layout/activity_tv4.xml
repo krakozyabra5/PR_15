@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3400A3"
+    tools:context=".TV_4">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="963dp"
+        android:layout_height="377dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="416dp"
+        android:text="Ты ты ты мне не враг... ааа... Но с тобой не дружу... ууу... Я твой личный маньяк... ааа... Я тебя придушу, я тебя придушу. Ла-ла-ла-ла-ла Ла-ла-ла-ла-ла Ла-ла-ла-ла-ла Ла-ла-ла Ла-ла-ла-ла-ла"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
